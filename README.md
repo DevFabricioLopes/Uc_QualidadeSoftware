@@ -2,127 +2,73 @@
 
 **Engenharia de Software • Qualidade de Código • Testes Automatizados**
 
-Este repositório é dedicado ao **estudo e aplicação prática de Engenharia de Software com foco em Qualidade**, reunindo exemplos reais de código, testes automatizados e boas práticas utilizadas em ambientes profissionais.
+Este repositório é dedicado ao estudo e aplicação prática de Engenharia de Software com foco em Qualidade, reunindo exemplos reais de código, testes automatizados e boas práticas utilizadas em ambientes profissionais.
 
-O objetivo é demonstrar, na prática, como garantir **robustez, confiabilidade, manutenibilidade e evolução segura do software**, utilizando padrões consolidados da indústria e abordagens aplicáveis ao mercado.
+O objetivo é demonstrar, na prática, como garantir robustez, confiabilidade, manutenibilidade e evolução segura do software, utilizando padrões consolidados da indústria.
 
 ---
 
 ## 🎯 Objetivo do Projeto
 
-Promover a excelência no desenvolvimento de software por meio de:
+Promover a excelência no desenvolvimento de software por meio de qualidade de código, testes automatizados, organização e padronização, prevenção de falhas e regressões e aplicação de boas práticas de engenharia.
 
-- Qualidade de código e boas práticas
-- Testes automatizados e validação contínua
-- Organização, padronização e legibilidade
-- Prevenção de falhas e regressões
-- Engenharia de software orientada à manutenção e evolução
-
-Este projeto possui caráter **acadêmico e profissional**, servindo tanto como base de estudo quanto como **demonstração técnica para portfólio**.
+Este projeto é voltado tanto para aprendizado técnico quanto para demonstração de competência profissional em qualidade de software.
 
 ---
 
 ## 🧠 Conceitos Abordados
 
-- Engenharia de Software
-- Qualidade de Software
-- Testes Automatizados
-- Manutenibilidade
-- Confiabilidade
-- Versionamento com Git
-- Organização modular de código
-- Boas práticas de desenvolvimento
+Engenharia de Software, Qualidade de Software, Testes Automatizados, Manutenibilidade, Confiabilidade, Versionamento com Git, Organização modular de código e Boas práticas de desenvolvimento.
 
 ---
 
 ## 📂 Conteúdo do Repositório
 
-- Códigos exemplificando conceitos de qualidade de software
-- Testes automatizados utilizando **JUnit**
-- Estrutura organizada visando manutenção e escalabilidade
-- Scripts e configurações para ambiente de desenvolvimento
-- Documentação técnica e materiais de apoio
+O repositório contém códigos exemplificando conceitos de qualidade de software, testes automatizados utilizando JUnit, estrutura organizada para facilitar manutenção e evolução, scripts e configurações para ambiente de desenvolvimento e materiais de apoio e documentação técnica.
 
 ---
 
 ## 🧪 Testes Automatizados
 
-O projeto utiliza o framework **JUnit** para assegurar a qualidade e a confiabilidade do código.
+O projeto utiliza o framework JUnit para garantir a qualidade e confiabilidade do código. A aplicação de testes automatizados permite detecção precoce de erros, prevenção de regressões, maior segurança em refatorações, aumento da confiabilidade do sistema e facilidade de manutenção.
 
-Benefícios da abordagem aplicada:
-- Detecção precoce de erros
-- Redução de regressões
-- Segurança para refatorações
-- Código mais estável e sustentável
-- Facilidade de manutenção e evolução
+### Execução dos testes
 
----
-
-## ⚙️ Execução de Testes
-
-Os testes automatizados podem ser executados das seguintes formas:
-
-Utilizando Maven:
-mvn test
-
-Utilizando Gradle:
-gradle test
-
-Também é possível executar diretamente pela IDE, rodando as classes de teste localizadas no diretório:
-src/test/java
+Os testes automatizados podem ser executados utilizando Maven com o comando mvn test, utilizando Gradle com o comando gradle test ou diretamente pela IDE, executando as classes de teste localizadas no diretório src/test/java.
 
 ---
 
 ## ⚙️ Configuração do Ambiente
 
-Pré-requisitos para execução e contribuição no projeto:
-
-- Java JDK 8 ou superior
-- Maven ou Gradle
-- IDE com suporte a Java (IntelliJ IDEA, Eclipse ou VS Code)
+Para executar e contribuir com o projeto é necessário possuir Java JDK 8 ou superior, Maven ou Gradle e uma IDE com suporte a Java, como IntelliJ IDEA, Eclipse ou VS Code.
 
 Clonagem do repositório:
 git clone https://github.com/DevFabricioLopes/Uc_QualidadeSoftware.git
 cd Uc_QualidadeSoftware
 
 Instalação das dependências:
+Com Maven: mvn clean install
+Com Gradle: gradle build
 
-Com Maven:
-mvn clean install
+---
 
-Com Gradle:
-gradle build
+## 📊 Gestão do Projeto
+
+Durante o desenvolvimento foi utilizado um quadro Kanban para organização e acompanhamento das atividades. O uso do Kanban permitiu controlar o fluxo de trabalho, priorizar tarefas, acompanhar o progresso das funcionalidades, revisões de código, testes e conclusão das entregas, reforçando a aplicação prática de conceitos de Engenharia e Qualidade de Software.
+
+Uma imagem do quadro Kanban está disponível neste repositório como evidência da organização e do processo de desenvolvimento adotado no projeto.
 
 ---
 
 ## 🤝 Contribuição
 
-Contribuições são bem-vindas e seguem boas práticas de engenharia de software.
-
-Fluxo recomendado:
-- Fork do repositório
-- Criação de branch para feature ou correção
-  git checkout -b minha-feature
-- Commit das alterações
-  git commit -m "Descrição da alteração"
-- Envio para o fork
-  git push origin minha-feature
-- Abertura de Pull Request
-
-Boas práticas esperadas:
-- Inclusão de testes automatizados
-- Manutenção da cobertura de testes
-- Padronização de nomenclatura
-- Organização e legibilidade do código
+Contribuições são bem-vindas e seguem boas práticas de engenharia de software. O fluxo recomendado inclui fork do repositório, criação de branch para feature ou correção, commit das alterações, envio para o fork e abertura de Pull Request. É esperado que novas contribuições incluam testes automatizados, mantenham a cobertura de testes e sigam padrões de organização e nomenclatura.
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-- Java
-- JUnit
-- Maven / Gradle
-- Git
+Java, JUnit, Maven, Gradle e Git.
 
 ---
 
