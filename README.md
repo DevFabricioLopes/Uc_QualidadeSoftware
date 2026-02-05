@@ -1,4 +1,4 @@
-# 🧪 Uc_QualidadeSoftware
+# 🧪 QualidadeSoftware
 
 **Engenharia de Software • Qualidade de Código • Testes Automatizados**
 
