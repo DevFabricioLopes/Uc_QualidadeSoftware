@@ -58,83 +58,75 @@ O projeto utiliza o framework **JUnit** para garantir a qualidade e confiabilida
 
 ### Como executar os testes
 
-**Usando Maven**
-```bash
+## ⚙️ Execução de Testes
+
+Os testes automatizados podem ser executados de diferentes formas, conforme o ambiente de desenvolvimento utilizado.
+
+Utilizando Maven:
 mvn test
-Usando Gradle
 
+Utilizando Gradle:
 gradle test
-Diretamente pela IDE
-Execute as classes de teste localizadas em:
 
-src/test/java
-⚙️ Configuração do Ambiente
-Pré-requisitos
-Java JDK 8 ou superior
-
-Maven ou Gradle
-
-IDE recomendada:
-
-IntelliJ IDEA
-
-Eclipse
-
-VS Code com suporte a Java
-
-Clonar o repositório
-git clone https://github.com/DevFabricioLopes/Uc_QualidadeSoftware.git
-cd Uc_QualidadeSoftware
-Instalar dependências
-Com Maven
-
-mvn clean install
-Com Gradle
-
-gradle build
-🤝 Como Contribuir
-Contribuições são bem-vindas para evolução contínua do projeto.
-
-Faça um fork do repositório
-
-Crie uma branch para sua feature ou correção:
-
-git checkout -b minha-feature
-Faça commit das alterações:
-
-git commit -m "Descrição da feature"
-Envie para o seu fork:
-
-git push origin minha-feature
-Abra um Pull Request
-
-Boas práticas para contribuição
-Adicione testes automatizados
-
-Mantenha a cobertura de testes
-
-Siga padrões de nomenclatura
-
-Preserve a organização do projeto
-
-🚀 Tecnologias Utilizadas
-Java
-
-JUnit
-
-Maven / Gradle
-
-Git
-
-👤 Autor
-Fabricio Lopes
-Desenvolvedor de Software
-Engenharia de Software • Qualidade • Testes Automatizados
-
+Também é possível executar diretamente pela IDE, rodando as classes de teste localizadas no diretório src/test/java.
 
 ---
 
-Se quiser, no próximo passo posso:
-- adaptar o texto **pra recrutador**
-- deixar mais **acadêmico**
-- ou mais **enterprise / mercado**
+## ⚙️ Configuração do Ambiente
+
+Pré-requisitos para execução e contribuição no projeto:
+
+- Java JDK 8 ou superior  
+- Maven ou Gradle  
+- IDE com suporte a Java (IntelliJ IDEA, Eclipse ou VS Code)
+
+Clonagem do repositório:
+git clone https://github.com/DevFabricioLopes/Uc_QualidadeSoftware.git  
+cd Uc_QualidadeSoftware
+
+Instalação das dependências:
+
+Com Maven:
+mvn clean install
+
+Com Gradle:
+gradle build
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas e seguem boas práticas de engenharia de software.
+
+Fluxo recomendado:
+- Fork do repositório  
+- Criação de branch para feature ou correção  
+  git checkout -b minha-feature  
+- Commit das alterações  
+  git commit -m "Descrição da alteração"  
+- Envio para o fork  
+  git push origin minha-feature  
+- Abertura de Pull Request
+
+Boas práticas esperadas:
+- Inclusão de testes automatizados  
+- Manutenção da cobertura de testes  
+- Padronização de nomenclatura  
+- Organização e legibilidade do código  
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- Java  
+- JUnit  
+- Maven / Gradle  
+- Git  
+
+---
+
+## 👤 Autor
+
+Fabricio Lopes  
+Desenvolvedor de Software  
+Engenharia de Software • Qualidade • Testes Automatizados
