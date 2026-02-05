@@ -4,7 +4,7 @@
 
 Este repositório é dedicado ao **estudo e aplicação prática de Engenharia de Software com foco em Qualidade**, reunindo exemplos reais de código, testes automatizados e boas práticas utilizadas em ambientes profissionais.
 
-O objetivo é demonstrar, na prática, como garantir **robustez, confiabilidade, manutenibilidade e evolução segura do software**, utilizando padrões consolidados da indústria.
+O objetivo é demonstrar, na prática, como garantir **robustez, confiabilidade, manutenibilidade e evolução segura do software**, utilizando padrões consolidados da indústria e abordagens aplicáveis ao mercado.
 
 ---
 
@@ -12,13 +12,13 @@ O objetivo é demonstrar, na prática, como garantir **robustez, confiabilidade,
 
 Promover a excelência no desenvolvimento de software por meio de:
 
-- qualidade de código
-- testes automatizados
-- organização e padronização
-- prevenção de falhas e regressões
-- boas práticas de engenharia
+- Qualidade de código e boas práticas
+- Testes automatizados e validação contínua
+- Organização, padronização e legibilidade
+- Prevenção de falhas e regressões
+- Engenharia de software orientada à manutenção e evolução
 
-Este projeto é voltado tanto para **aprendizado técnico** quanto para **demonstração de competência profissional** em qualidade de software.
+Este projeto possui caráter **acadêmico e profissional**, servindo tanto como base de estudo quanto como **demonstração técnica para portfólio**.
 
 ---
 
@@ -39,28 +39,28 @@ Este projeto é voltado tanto para **aprendizado técnico** quanto para **demons
 
 - Códigos exemplificando conceitos de qualidade de software
 - Testes automatizados utilizando **JUnit**
-- Estrutura organizada para facilitar manutenção e evolução
+- Estrutura organizada visando manutenção e escalabilidade
 - Scripts e configurações para ambiente de desenvolvimento
-- Materiais de apoio e documentação técnica
+- Documentação técnica e materiais de apoio
 
 ---
 
 ## 🧪 Testes Automatizados
 
-O projeto utiliza o framework **JUnit** para garantir a qualidade e confiabilidade do código.
+O projeto utiliza o framework **JUnit** para assegurar a qualidade e a confiabilidade do código.
 
-### Benefícios dos testes aplicados
+Benefícios da abordagem aplicada:
 - Detecção precoce de erros
-- Prevenção de regressões
+- Redução de regressões
 - Segurança para refatorações
-- Código mais confiável e sustentável
-- Facilidade de manutenção
+- Código mais estável e sustentável
+- Facilidade de manutenção e evolução
 
-### Como executar os testes
+---
 
 ## ⚙️ Execução de Testes
 
-Os testes automatizados podem ser executados de diferentes formas, conforme o ambiente de desenvolvimento utilizado.
+Os testes automatizados podem ser executados das seguintes formas:
 
 Utilizando Maven:
 mvn test
@@ -68,7 +68,8 @@ mvn test
 Utilizando Gradle:
 gradle test
 
-Também é possível executar diretamente pela IDE, rodando as classes de teste localizadas no diretório src/test/java.
+Também é possível executar diretamente pela IDE, rodando as classes de teste localizadas no diretório:
+src/test/java
 
 ---
 
@@ -76,12 +77,12 @@ Também é possível executar diretamente pela IDE, rodando as classes de teste 
 
 Pré-requisitos para execução e contribuição no projeto:
 
-- Java JDK 8 ou superior  
-- Maven ou Gradle  
+- Java JDK 8 ou superior
+- Maven ou Gradle
 - IDE com suporte a Java (IntelliJ IDEA, Eclipse ou VS Code)
 
 Clonagem do repositório:
-git clone https://github.com/DevFabricioLopes/Uc_QualidadeSoftware.git  
+git clone https://github.com/DevFabricioLopes/Uc_QualidadeSoftware.git
 cd Uc_QualidadeSoftware
 
 Instalação das dependências:
@@ -99,29 +100,29 @@ gradle build
 Contribuições são bem-vindas e seguem boas práticas de engenharia de software.
 
 Fluxo recomendado:
-- Fork do repositório  
-- Criação de branch para feature ou correção  
-  git checkout -b minha-feature  
-- Commit das alterações  
-  git commit -m "Descrição da alteração"  
-- Envio para o fork  
-  git push origin minha-feature  
+- Fork do repositório
+- Criação de branch para feature ou correção
+  git checkout -b minha-feature
+- Commit das alterações
+  git commit -m "Descrição da alteração"
+- Envio para o fork
+  git push origin minha-feature
 - Abertura de Pull Request
 
 Boas práticas esperadas:
-- Inclusão de testes automatizados  
-- Manutenção da cobertura de testes  
-- Padronização de nomenclatura  
-- Organização e legibilidade do código  
+- Inclusão de testes automatizados
+- Manutenção da cobertura de testes
+- Padronização de nomenclatura
+- Organização e legibilidade do código
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-- Java  
-- JUnit  
-- Maven / Gradle  
-- Git  
+- Java
+- JUnit
+- Maven / Gradle
+- Git
 
 ---
 
