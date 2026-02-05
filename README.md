@@ -54,9 +54,10 @@ Com Gradle: gradle build
 
 ## 📊 Gestão do Projeto
 
-Durante o desenvolvimento foi utilizado um quadro Kanban para organização e acompanhamento das atividades. O uso do Kanban permitiu controlar o fluxo de trabalho, priorizar tarefas, acompanhar o progresso das funcionalidades, revisões de código, testes e conclusão das entregas, reforçando a aplicação prática de conceitos de Engenharia e Qualidade de Software.
+Durante o desenvolvimento foi utilizado um quadro Kanban para organização e acompanhamento das atividades, permitindo controle de tarefas, acompanhamento de progresso e garantia de qualidade ao longo do ciclo de desenvolvimento.
 
-Uma imagem do quadro Kanban está disponível neste repositório como evidência da organização e do processo de desenvolvimento adotado no projeto.
+![Quadro Kanban do Projeto](images/trelo.png)
+
 
 ---
 
